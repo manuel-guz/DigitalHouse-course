@@ -1,0 +1,15 @@
+h1, h2 {
+    background-color: rgba(172, 172, 172, 0.781);
+    font-family: 'Times New Roman', Times, serif;
+    color: #962525 ;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+.bold{
+    font-weight: bold;
+}
