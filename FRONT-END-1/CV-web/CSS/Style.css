@@ -1,15 +1,31 @@
+body {
+    font-family: system-ui, system-ui, sans-serif;
+    font-size: 81.25%;
+}
+
+
 h1, h2 {
-    background-color: rgba(172, 172, 172, 0.781);
-    font-family: 'Times New Roman', Times, serif;
-    color: #962525 ;
+    color: #000000 ;
 }
 
 h1{
-    text-align: center;
+    text-align: left;
     font-size: 40px;
     font-weight: bold;
     
 }
 .bold{
     font-weight: bold;
+}
+
+img {
+    width: 2%;
+    weight: 2%;
+}
+
+h2{
+    text-decoration: underline;
+}
+footer{
+    text-align: center;
 }
