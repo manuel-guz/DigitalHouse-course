@@ -130,11 +130,23 @@ section.Manage-Topics{
     gap: 10px;
 }
 
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
 .Footer-a{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    gap:10px;
     align-items: center;
+    text-decoration: none;
+}
+
+.Footer-a ul li a{
+    text-decoration: none;
 }
 
 
