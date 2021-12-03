@@ -7,21 +7,83 @@
 
 /* Global styles*/
 
+
+
 body{    
     background-image: url("../img/bg-tablet-pattern.svg"), url("../img/bg-tablet-pattern.svg");
     background-repeat: no-repeat;
     background-position: 60vw -20vh, -30vw 100vh;
 } 
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.Header-a{
+    font-family: Be Vietnam;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 19px;
+    color: #242E52;
+}
 
 a{
     text-decoration: none;
 }
+.Orange-Button{
+    background: #F3603B;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    font-family: Be Vietnam;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13.1806px;
+    line-height: 19px;
+    color: #FFFFFF;
+    border:none;
+    padding: 3px;
 
+}
+
+.White-Button{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    font-family: Be Vietnam;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13.1806px;
+    line-height: 19px;
+    color:#F3603B ;
+    border:none;
+    padding: 3px;
+}
+
+
+
+.Footer-a{
+font-family: Be Vietnam;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 23px;
+color: #FFFFFF;
+}
+
+.Main-footer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: #F3613C;
+}
+footer{
+    background: #1E1E26;
+}
 
 /*HEADER STYLE*/
 
-header{
-    width: 100 vw;
+header{ 
+    margin: 5vh 11vw 5vh 11vw;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -34,6 +96,46 @@ header{
 
 
 
+.Graph-Text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+
+
+.Illustration-Intro img{
+    width: auto;
+}
+
+section.Manage-Topics{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+.Avatar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.Footer-a{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
 
 
 
@@ -54,6 +156,7 @@ nav.Desktop-NavBar{
     /*HEADER*/
     nav.Mobile-NavBar{
         display: none;
+
     }
     nav.Desktop-NavBar{
         display: flex;
@@ -68,9 +171,35 @@ nav.Desktop-NavBar{
         flex-wrap: wrap;
         flex-direction: row;
         gap: 3vw;
-
-        
     }
 
+    /*BODY*/
+
+    .Avatar .Avatar-Cards{
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
     
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+
+
+
+}
+
+
+
+@media (max-width: 375px ) {
+    section.Manage-Topics{
+        flex-wrap: wrap;
+    
+    }
+
+    .Illustration-Intro-Text{
+        order: 2;
+    }
 }
