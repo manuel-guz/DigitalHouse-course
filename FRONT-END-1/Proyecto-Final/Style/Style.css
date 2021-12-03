@@ -117,7 +117,7 @@ header{
 
 section.Manage-Topics{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
 
@@ -139,6 +139,8 @@ footer{
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 .Footer-a{
     display: flex;
@@ -191,6 +193,13 @@ nav.Desktop-NavBar{
 
     /*BODY*/
 
+    section.Manage-Topics{
+        flex-direction: row;
+
+    }
+
+
+
     .Avatar .Avatar-Cards{
 
         display: flex;
@@ -206,7 +215,7 @@ nav.Desktop-NavBar{
         footer{
             display: flex;
             flex-direction: row;
-            justify-content: center;
+            justify-content: space-around;
             text-align: center;
             
         }
@@ -222,14 +231,3 @@ nav.Desktop-NavBar{
 }
 
 
-
-@media (max-width: 375px ) {
-    section.Manage-Topics{
-        flex-wrap: wrap;
-    
-    }
-
-    .Illustration-Intro-Text{
-        order: 2;
-    }
-}
