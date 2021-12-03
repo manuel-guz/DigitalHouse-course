@@ -79,6 +79,10 @@ color: #FFFFFF;
 footer{
     background: #1E1E26;
 }
+small{
+    text-align: center;
+    background: #1E1E26;
+}
 
 /*HEADER STYLE*/
 
@@ -199,6 +203,20 @@ nav.Desktop-NavBar{
     }
 
 
+        footer{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            text-align: center;
+            
+        }
+    
+        .Footer-a{
+            order: -1;
+        }
+        .f3{
+            order: -2;
+        }
 
 
 }
