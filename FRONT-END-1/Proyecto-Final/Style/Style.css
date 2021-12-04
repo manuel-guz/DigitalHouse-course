@@ -11,8 +11,13 @@
 
 h1, h2, h4, h3, p, a{
     font-family: 'Be Vietnam Pro', sans-serif; 
+
 }
 
+a:hover{
+    font-weight: bolder;
+    transition: all 1s;
+}
 
 body{    
     background-image: url("../img/bg-tablet-pattern.svg"), url("../img/bg-tablet-pattern.svg");
@@ -49,6 +54,11 @@ a{
     padding: 5px;
 
 }
+.Orange-Button:hover{
+    opacity: 0.5;
+    transition: all 1s;
+}
+
 
 .White-Button{
     background: #FFFFFF;
@@ -62,6 +72,12 @@ a{
     color:#F3603B ;
     border:none;
     padding: 3px;
+}
+
+
+.White-Button:hover{
+    opacity: 0.5;
+    transition: all 1s;
 }
 
 input{
@@ -216,15 +232,45 @@ footer{
     text-decoration: none;
 }
 
+.Footer-a .a-f li a{
+
+    text-decoration: none;
+}
+
+
 .a-f li {
     text-decoration: none;
     list-style: none;
 }
 
+.a-f li a {
+    color: white;
+    
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 23px;
+}
+
+.a-f li a:hover{
+    opacity: 0.5;
+    transition: all 1s;
+}
 
 
+.ico img:hover{
+    width: 40px;
+    transition: all 1s;
+}
 
-
+.f4{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12.5px;
+    line-height: 18px;
+    color: #8C8C94;
+}
 
 /*MEDIAQUERIES DISPLAY*/
 nav.Desktop-NavBar{
@@ -290,6 +336,7 @@ nav.Desktop-NavBar{
 
 
         footer{
+            
             display: flex;
             flex-direction: row;
             justify-content: space-around;
@@ -303,7 +350,18 @@ nav.Desktop-NavBar{
         .f3{
             order: -2;
         }
+        body{
+            position: relative;
+        }
+        .f4{
+            
+            position: absolute;
+            bottom: 19px;
+            right: 11%;
+            
 
+        }
+        
 
 }
 
